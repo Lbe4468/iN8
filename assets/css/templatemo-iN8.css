@@ -384,7 +384,7 @@ a.main-button-slider {
     font-weight: 600;
     border-radius: 20px;
     padding: 12px 20px;
-    background-color: #244fe5;
+    background-color: #0042FF;
     text-transform: uppercase;
     color: #fff;
     letter-spacing: 0.25px;
@@ -520,7 +520,7 @@ header
     display: block;
     font-weight: 500;
     font-size: 14px;
-    color: #244FE5;
+    color: #0042FF;
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
@@ -532,7 +532,7 @@ header
 }
 
 .header-area .main-nav .nav li a:hover {
-    color: #244FE5;
+    color: #0042FF;
 }
 
 .header-area .main-nav .menu-trigger {
@@ -640,11 +640,11 @@ header
 }
 
 .header-area.header-sticky .nav li a {
-    color: #244FE5;
+    color: #0042FF;
 }
 
 .header-area.header-sticky .nav li a.active {
-    color: #244FE5;
+    color: #0042FF;
 }
 
 @media (max-width: 1200px) {
@@ -879,7 +879,7 @@ features
     margin: auto;
     position: relative;
     margin-bottom: 30px;
-    background: #244FE5;
+    background: #0042FF;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
