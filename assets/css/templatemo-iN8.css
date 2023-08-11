@@ -384,7 +384,7 @@ a.main-button-slider {
     font-weight: 600;
     border-radius: 20px;
     padding: 12px 20px;
-    background-color: #4a249b;
+    background-color: #244fe5;
     text-transform: uppercase;
     color: #fff;
     letter-spacing: 0.25px;
@@ -395,7 +395,7 @@ a.main-button-slider {
 }
 
 a.main-button-slider:hover {
-    background-color: #4cc5dc;
+    background-color: #3525af;
 }
 
 a.main-button {
@@ -474,7 +474,7 @@ header
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
     border-radius: 40px;
     min-height: 80px;
-    background: #ffffff;
+    background: #000000;
 }
 
 .header-area .main-nav .logo {
@@ -519,8 +519,8 @@ header
 .header-area .main-nav .nav li a {
     display: block;
     font-weight: 500;
-    font-size: 13px;
-    color: #fff;
+    font-size: 14px;
+    color: #244FE5;
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
@@ -532,7 +532,7 @@ header
 }
 
 .header-area .main-nav .nav li a:hover {
-    color: #4cc5dc;
+    color: #244FE5;
 }
 
 .header-area .main-nav .menu-trigger {
@@ -640,11 +640,11 @@ header
 }
 
 .header-area.header-sticky .nav li a {
-    color: #1e1e1e;
+    color: #244FE5;
 }
 
 .header-area.header-sticky .nav li a.active {
-    color: #008CA2;
+    color: #244FE5;
 }
 
 @media (max-width: 1200px) {
@@ -730,8 +730,7 @@ welcome
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgb(0, 140, 162);
-    background: radial-gradient(circle, rgba(0, 140, 162, 1) 0%, rgba(76, 197, 220, 1) 60%, rgba(74, 36, 155, 1) 100%);
+    background: #000000;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -747,18 +746,18 @@ welcome
 }
 
 .welcome-area .header-text h1 {
-    font-weight: 500;
-    font-size: 70px;
+    font-weight: 700;
+    font-size: 90px;
     line-height: 75px;
     letter-spacing: 1.25px;
     margin-bottom: 30px;
-    color: #fff;
+    color: #ffffff;
 }
 
 .welcome-area .header-text p {
-    font-weight: 400;
+    font-weight: 600;
     font-size: 24px;
-    color: #fff;
+    color: #ffffff;
     line-height: 28px;
     letter-spacing: 0.25px;
     margin-bottom: 40px;
@@ -866,7 +865,7 @@ features
 }
 
 .features-small-item:hover .icon {
-    background-color: #4cc5dc;
+    background-color: #c0d7fb;
 }
 
 .features-small-item .icon {
@@ -880,7 +879,7 @@ features
     margin: auto;
     position: relative;
     margin-bottom: 30px;
-    background: #008CA2;
+    background: #244FE5;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
@@ -953,8 +952,7 @@ parallax & home seperator
     width: 140%;
     height: 140%;
     opacity: .95;
-    background: rgb(0, 140, 162);
-    background: radial-gradient(circle, rgba(0, 140, 162, 1) 0%, rgba(76, 197, 220, 1) 60%, rgba(74, 36, 155, 1) 100%);
+    background: #c0d7fb;
     z-index: 2;
     top: -20%;
     left: -20%;
@@ -1316,7 +1314,7 @@ team
 }
 
 .pricing-item.active .pricing-body .price-wrapper {
-    background-color: #008CA2;
+    background-color: #303655;
 }
 
 .pricing-item.active .pricing-body .price-wrapper .currency {
@@ -1359,7 +1357,7 @@ team
     text-align: center;
     padding-top: 20px;
     padding-bottom: 13px;
-    background: #008CA2;
+    background: #303655;
     color: #ffffff;
     width: 80%;
     margin: auto;
@@ -1624,7 +1622,7 @@ preloader
 
 #preloader {
     overflow: hidden;
-    background-image: linear-gradient(135deg, #008CA2 0%, #4cc5dc 100%);
+    background-image: linear-gradient(135deg, #303655 0%, #4cc5dc 100%);
     left: 0;
     right: 0;
     top: 0;

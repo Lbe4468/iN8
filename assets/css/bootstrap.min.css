@@ -3,7 +3,7 @@
  * Copyright 2011-2019 The Bootstrap Authors
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- Primary = #008CA2
+ Primary = #303655, #0056b3, #1D4E89
  Secondary = #4cc5dc, #4a249b, #FFFFFF, #000000
  */
 
@@ -21,7 +21,7 @@
     --white: #fff;
     --gray: #6c757d;
     --gray-dark: #343a40;
-    --primary: #008CA2;
+    --primary: #303655;
     --secondary: #4cc5dc;
     --success: #28a745;
     --info: #17a2b8;
@@ -170,9 +170,10 @@ sup {
 }
 
 a {
-    color: #007bff;
+    color: #ffffff;
     text-decoration: none;
-    background-color: transparent
+    background-color: transparent;
+    font-size: 18px;
 }
 
 a:hover {
