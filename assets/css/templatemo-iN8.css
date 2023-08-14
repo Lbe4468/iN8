@@ -141,7 +141,7 @@ html,
 body {
     font-family: "Karla", sans-serif;
     font-weight: 400;
-    background-color: #fff;
+    /* background-color: #fff; */
     font-size: 16px;
     -ms-text-size-adjust: 100%;
     -webkit-font-smoothing: antialiased;
@@ -175,7 +175,7 @@ global styles
 
 html,
 body {
-    background: #fff;
+    background: #000000;
     font-family: "Karla", sans-serif;
 }
 
@@ -195,7 +195,7 @@ body {
 }
 
 .section.colored {
-    background: #f2f2fe;
+    background: #000000;
 }
 
 .hr {
@@ -204,7 +204,7 @@ body {
     height: 1px;
     margin-top: 50px;
     margin-bottom: 50px;
-    border-bottom: 2px solid #eee;
+    border-bottom: 2px solid #b30000;
 }
 
 .left-heading.light .section-title {
@@ -212,10 +212,10 @@ body {
 }
 
 .left-heading .section-title {
-    font-weight: 500;
-    font-size: 24px;
+    font-weight: 600;
+    font-size: 22px;
     line-height: 42px;
-    color: #1e1e1e;
+    color: #ffffff;
     letter-spacing: 0.25px;
     margin-bottom: 7.5px;
     position: relative;
@@ -229,7 +229,7 @@ body {
 .center-heading .section-title {
     font-weight: 600;
     font-size: 36px;
-    color: #1e1e1e;
+    color: #ffffff;
     letter-spacing: 1.75px;
     line-height: 38px;
     margin-bottom: 20px;
@@ -241,9 +241,9 @@ body {
 
 .center-text {
     text-align: center;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 18px;
-    color: #777;
+    color: #ffffff;
     line-height: 28px;
     letter-spacing: 1px;
     margin-bottom: 50px;
@@ -254,15 +254,15 @@ body {
 }
 
 .center-text p {
-    font-size: 18px;
-    color: #777;
+    font-size: 14px;
+    color: #ffffff;
     margin-bottom: 30px;
 }
 
 .left-text {
     font-weight: 400;
-    font-size: 16px;
-    color: #777;
+    font-size: 14px;
+    color: #ffffff;
     line-height: 28px;
     letter-spacing: 1px;
 }
@@ -384,7 +384,7 @@ a.main-button-slider {
     font-weight: 600;
     border-radius: 20px;
     padding: 12px 20px;
-    background-color: #0042FF;
+    background-color: #ff0000;
     text-transform: uppercase;
     color: #fff;
     letter-spacing: 0.25px;
@@ -395,7 +395,7 @@ a.main-button-slider {
 }
 
 a.main-button-slider:hover {
-    background-color: #3525af;
+    background-color: #b30000;
 }
 
 a.main-button {
@@ -403,7 +403,7 @@ a.main-button {
     font-weight: 600;
     border-radius: 20px;
     padding: 12px 20px;
-    background-color: #4a249b;
+    background-color: #ff0000;
     text-transform: uppercase;
     color: #fff;
     letter-spacing: 0.25px;
@@ -414,17 +414,18 @@ a.main-button {
 }
 
 a.main-button:hover {
-    background-color: #4cc5dc;
+    background-color: #b30000;
 }
 
 button.main-button {
     outline: none;
     border: none;
     cursor: pointer;
-    font-size: 13px;
+    font-size: 14px;
+    font-weight: 600;
     border-radius: 20px;
     padding: 12px 20px;
-    background-color: #8261ee;
+    background-color: #ff0000;
     text-transform: uppercase;
     color: #fff;
     letter-spacing: 0.25px;
@@ -435,15 +436,16 @@ button.main-button {
 }
 
 button.main-button:hover {
-    background-color: #4cc5dc;
+    background-color: #b30000;
 }
 
 #technology {
     margin-top: 75px;
+    padding-bottom: 30px;
 }
 
 #team {
-    padding-top: 75px;
+    padding-bottom: 15px;
 }
 
 #blog {
@@ -471,7 +473,7 @@ header
 }
 
 .header-area .main-nav {
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 2px #575757;
     border-radius: 40px;
     min-height: 80px;
     background: #000000;
@@ -520,7 +522,7 @@ header
     display: block;
     font-weight: 500;
     font-size: 14px;
-    color: #0042FF;
+    color: #ff0000;
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
@@ -532,7 +534,7 @@ header
 }
 
 .header-area .main-nav .nav li a:hover {
-    color: #0042FF;
+    color: #b30000;
 }
 
 .header-area .main-nav .menu-trigger {
@@ -640,11 +642,11 @@ header
 }
 
 .header-area.header-sticky .nav li a {
-    color: #0042FF;
+    color: #ffffff;
 }
 
 .header-area.header-sticky .nav li a.active {
-    color: #0042FF;
+    color: ##E23C3B;
 }
 
 @media (max-width: 1200px) {
@@ -849,8 +851,8 @@ features
 .features-small-item {
     cursor: pointer;
     display: block;
-    background: #FFFFFF;
-    box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.10);
+    background: #000000;
+    box-shadow: 0 0px 1px 0 #ff0000;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     border-radius: 20px;
@@ -865,7 +867,7 @@ features
 }
 
 .features-small-item:hover .icon {
-    background-color: #c0d7fb;
+    background-color: #b30000;
 }
 
 .features-small-item .icon {
@@ -879,7 +881,7 @@ features
     margin: auto;
     position: relative;
     margin-bottom: 30px;
-    background: #0042FF;
+    /* background: #ff0000; */
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
@@ -887,13 +889,13 @@ features
 
 .features-small-item .icon i {
     font-size: 18px;
-    color: #fff;
+    color: #ff0000;
 }
 
 .features-small-item .features-title {
     font-weight: 600;
     font-size: 18px;
-    color: #1e1e1e;
+    color: #ffffff;
     letter-spacing: 0.7px;
     margin-bottom: 15px;
     position: relative;
@@ -903,7 +905,7 @@ features
 .features-small-item p {
     font-weight: 400;
     font-size: 13px;
-    color: #777;
+    color: #ffffff;
     letter-spacing: 0.5px;
     line-height: 25px;
     position: relative;
@@ -952,7 +954,8 @@ parallax & home seperator
     width: 140%;
     height: 140%;
     opacity: .95;
-    background: #c0d7fb;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(140deg, rgba(0, 0, 0, 1) 0%, rgba(255, 0, 0, 1) 50%, rgba(0, 0, 0, 1) 100%);
     z-index: 2;
     top: -20%;
     left: -20%;
@@ -986,8 +989,8 @@ parallax & home seperator
 
 .mini .mini-content .info h1 {
     color: #fff;
-    font-weight: 500;
-    font-size: 28px;
+    font-weight: 600;
+    font-size: 36px;
     letter-spacing: 0.25px;
     margin-bottom: 30px;
 }
@@ -999,7 +1002,7 @@ parallax & home seperator
     letter-spacing: 0.25px;
     line-height: 26px;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .mini .mini-content .info p span {
@@ -1008,11 +1011,11 @@ parallax & home seperator
 
 .mini .mini-content .mini-box {
     display: block;
-    background: #fff;
+    /* background: #000000; */
     padding: 20px;
-    border-radius: 20px;
+    /* border-radius: 20px;
     box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
-    margin-bottom: 30px;
+    margin-bottom: 30px; */
     position: relative;
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
@@ -1029,7 +1032,7 @@ parallax & home seperator
     content: '';
     position: absolute;
     z-index: -1;
-    background: #fff;
+    /* background: #fff; */
     width: 100%;
     opacity: .15;
     height: 100%;
@@ -1048,17 +1051,17 @@ parallax & home seperator
 
 .mini .mini-content .mini-box span {
     display: block;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 14px;
-    color: #777;
+    color: #ffffff;
     letter-spacing: .75px;
 }
 
 .mini .mini-content .mini-box strong {
     display: block;
-    font-weight: 400;
-    font-size: 17px;
-    color: #1e1e1e;
+    font-weight: 600;
+    font-size: 22px;
+    color: #ffffff;
     letter-spacing: 0.25px;
     margin-bottom: 5px;
     margin-top: 20px;
@@ -1075,8 +1078,8 @@ parallax & home seperator
     width: 140%;
     height: 140%;
     opacity: .90;
-    background: rgb(0, 140, 162);
-    background: linear-gradient(140deg, rgba(0, 140, 162, 1) 0%, rgba(76, 197, 220, 1) 60%, rgba(74, 36, 155, 1) 100%);
+    background: rgb(0, 0, 0);
+    background: linear-gradient(140deg, rgba(0, 0, 0, 1) 0%, rgba(255, 0, 0, 1) 50%, rgba(0, 0, 0, 1) 100%);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -1209,7 +1212,7 @@ technology
 */
 
 .team-item {
-    background: #fff;
+    background: #000000;
     box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.10);
     border-radius: 20px;
     position: relative;
@@ -1246,7 +1249,7 @@ technology
 }
 
 .team-item .team-content {
-    text-align: left;
+    text-align: center;
     overflow: hidden;
 }
 
@@ -1260,7 +1263,8 @@ technology
     transition: all 0.3s ease 0s;
 }
 
-.team-item .team-content .team-info .user-name {
+
+/* .team-item .team-content .team-info .user-name {
     display: block;
     font-weight: 400;
     font-size: 17px;
@@ -1284,9 +1288,26 @@ technology
     margin-bottom: 25px;
     font-weight: 400;
     font-size: 15px;
-    color: #777;
+    color: #ffffff;
     letter-spacing: 0.6px;
     line-height: 26px;
+} */
+
+.team-item p {
+    display: block;
+    font-weight: 300;
+    font-size: 14px;
+    color: #ffffff;
+    letter-spacing: .75px;
+}
+
+.team-item strong {
+    display: block;
+    font-weight: 600;
+    font-size: 22px;
+    color: #ffffff;
+    letter-spacing: 0.25px;
+    margin-top: 20px;
 }
 
 
@@ -1297,11 +1318,10 @@ team
 */
 
 .pricing-item {
-    background: #FFFFFF;
+    /* background: #FFFFFF; */
     box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.1);
     border-radius: 20px;
     margin-bottom: 30px;
-    margin-top: 20px;
     padding: 30px 0px 40px 0px;
 }
 
@@ -1310,11 +1330,12 @@ team
 }
 
 .pricing-item.active .pricing-header .pricing-title {
-    color: #1e1e1e;
+    color: #b30000;
+    font-weight: 500;
 }
 
 .pricing-item.active .pricing-body .price-wrapper {
-    background-color: #303655;
+    background-color: #ff0000;
 }
 
 .pricing-item.active .pricing-body .price-wrapper .currency {
@@ -1338,9 +1359,9 @@ team
 
 .pricing-item .pricing-header .pricing-title {
     font-weight: 500;
-    font-size: 17px;
+    font-size: 20px;
     letter-spacing: 0.25px;
-    color: #1e1e1e;
+    color: #b30000;
     width: 180px;
     height: 40px;
     line-height: 40px;
@@ -1357,7 +1378,7 @@ team
     text-align: center;
     padding-top: 20px;
     padding-bottom: 13px;
-    background: #303655;
+    background: #ff0000;
     color: #ffffff;
     width: 80%;
     margin: auto;
@@ -1551,8 +1572,7 @@ footer
 */
 
 footer {
-    background: rgb(0, 140, 162);
-    background: linear-gradient(140deg, rgba(0, 140, 162, 1) 0%, rgba(76, 197, 220, 1) 60%, rgba(74, 36, 155, 1) 100%);
+    background: #000000;
     padding-top: 30px;
 }
 
@@ -1568,7 +1588,7 @@ footer .social li {
 }
 
 footer .social li a {
-    color: #9d5bd9;
+    color: #b30000;
     text-align: center;
     background-color: #fff;
     width: 36px;
