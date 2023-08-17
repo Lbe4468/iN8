@@ -377,6 +377,9 @@ body {
     .mobile-bottom-fix-big {
         margin-bottom: 60px;
     }
+    .draw-hide {
+        display: none;
+    }
 }
 
 a.main-button-slider {
